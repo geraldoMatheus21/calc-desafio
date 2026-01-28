@@ -1,7 +1,11 @@
-const App = () => {
+import { ButtonContainer } from "./styles";
+
+const Button = () => {
   return (
-    <div>
-        
-    </div>
+    <ButtonContainer>
+      1
+    </ButtonContainer>
   );
 }
+
+export default Button;

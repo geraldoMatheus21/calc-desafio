@@ -1,10 +1,15 @@
 import {Container, Content} from './styles';
+import Input from './components/Input';
+import Button from './components/Button';
 
 const App = () => {
   return (
     <Container>
       <Content>
-        Mec Bloco 7
+        oi
+        <Input />
+        <Button />
+
       </Content>
     </Container>
   );
